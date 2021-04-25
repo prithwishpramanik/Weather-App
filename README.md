@@ -14,4 +14,4 @@
 <img src="Screenshot (267).png">
 
 # Find Project Here :point_down:
-http://localhost:63342/Weather-App/index.html?_ijt=kv1je8q96cegpg7u3da115miiq
+https://prithwishpramanik.github.io/Weather-App/

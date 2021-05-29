@@ -6,6 +6,7 @@ body {
     margin: 0;
     font-family: 'Lobster', cursive;
     background: #222;
+    background-image: url('https://source.unsplash.com/1600x900/?landscape');
     font-size:120%;
 }
 
@@ -40,6 +41,8 @@ input.search-bar {
     width: 100%;
 }
 
+button.hover {}
+
 button:hover {
     background: #7c7c7c6b;
 }
@@ -51,6 +54,10 @@ h1.temp {
 .description{
     text-transform: uppercase;
     margin-left: 8px;
+}
+
+.icon{
+
 }
 
 .flex{

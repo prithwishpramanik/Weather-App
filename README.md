@@ -10,8 +10,8 @@
 - Dont type name of Countries
 
 # Images:camera:
-<img src="./images/Screenshot (268).png">
-<img src="./images/Screenshot (267).png">
+<img src="Screenshot (268).png">
+<img src="Screenshot (267).png">
 
 # Find Project Here :point_down:
 https://prithwishpramanik.github.io/Weather-App/

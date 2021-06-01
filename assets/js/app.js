@@ -1,13 +1,9 @@
 let weather ={
-    apikey:"6d5c4de09db8370fe0689c33513e5fdf",
     fetchWeather: function(city){
-        fetch("https://api.openweathermap.org/data/2.5/weather?q="
-            + city
-            + "&units=metric&appid="
-            + this.apikey
+        fetch("https://weather-applicatio.herokuapp.com/api/search?q="+city
         )
             .then((response) => response.json())
-            .then((data) => this.displayWeather(data));
+            .then((data) => this.displayWeather(data.results));
     },
 
     displayWeather: function(data){

@@ -1,0 +1,38 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "A simple backend relay for hitting the Weather API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./backend/app.js",
+    "dev": "nodemon ./backend/app.js",
+    "debug": "nodemon --inspect ./backend/app.js"
+  },
+  "author": "Mitrajit Chandra Chandra",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/preset-react": "^7.6.3",
+    "babel-loader": "^8.0.6",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-rate-limit": "^5.0.0",
+    "node-fetch": "^2.6.1",
+    "xml-js": "^1.6.11"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prithwishpramanik/Weather-App.git"
+  },
+  "keywords": [
+    "weather",
+    "app",
+    "api"
+  ],
+  "engines": {
+    "node": "14.x"
+  },
+  "devDependencies": {}
+}

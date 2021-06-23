@@ -1,4 +1,4 @@
-# :sunny::cloud:Weather-App:sunny::cloud:
+# :sunny::cloud:Weather-App:sunny::cloud: <img src="https://img.shields.io/website?down_color=red&style=for-the-badge&url=https%3A%2F%2Fprithwishpramanik.github.io%2FWeather-App%2F" alt="counter" align="right"/>
 - It is A simple Weather app which you can use to get weather of the any city on earth.
 - This App provides you with RealTime Temperature,Description about the weather,Humidity & Windspeed of the searched location
 - This website is purely made up of HTML5,CSS & Vanilla javascript.

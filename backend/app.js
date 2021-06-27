@@ -47,7 +47,7 @@ app.get("/api/search", async (req, res) => {
     }
     console.log(searchString);
     const response = await fetch(
-      `https://api.openweathermap.org/data/2.5/weather?${searchString}&units=metric&appid=${process.env.WEATHER_API_KEY}`,
+      `https://api.openweathermap.org/data/2.5/weather?q=${searchString}&units=metric&appid=${process.env.WEATHER_API_KEY}`,
     );
 
     const results = JSON.parse(await response.text());

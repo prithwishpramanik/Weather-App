@@ -15,3 +15,6 @@
 
 # Find Project Here :point_down:
 https://prithwishpramanik.github.io/Weather-App/
+
+# Made by-
+<b>Mitrajit Chandra Chandra & Prithwish Pramanik</b>
